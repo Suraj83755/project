@@ -1,7 +1,8 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
+  text-decoration:none;
 }
 
 body {
@@ -271,5 +272,71 @@ body {
 
 .buy-now-btn:hover {
   background-color: #c9302c;
+}
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  background:red url(images/f6.png) no-repeat center ;
+  background-size: cover;
+  
+height:400px;
+width: 100%;
+  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: xx-large;
+  color:rgb(213, 21, 130);
+  
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-left p {
+  margin: 0;
+}
+
+.footer-center ul,
+.footer-right ul {
+  list-style: none;
+  padding: 78px;
+}
+
+.footer-center ul li,
+.footer-right ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer-center a,
+.footer-right a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  color:rgba(255, 113, 4, 0.996);
+  font-size: larger;
+  
+  
+}
+
+.footer-center a:hover,
+.footer-right a:hover {
+  text-decoration: underline;
+  color: rgb(15, 228, 29);
 }
 
